@@ -1,0 +1,100 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Georama', sans-serif;
+}
+
+h3{
+margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    color: red;
+    background: darkblue;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 3px;
+}
+
+.grid {
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid black;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;  
+}
+
+.pac-dot {
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: gold;
+    border-radius: 1px;
+    clip-path: polygon(72% 0, 71% 9%, 79% 9%, 80% 20%, 90% 20%, 91% 28%, 100% 29%, 100% 71%, 91% 71%, 91% 79%, 79% 79%, 79% 90%, 71% 91%, 71% 100%, 28% 100%, 28% 91%, 21% 91%, 20% 79%, 9% 79%, 9% 71%, 0% 71%, 0 28%, 9% 28%, 9% 20%, 21% 20%, 21% 9%, 28% 9%, 29% 0);
+}
+
+.pacman {
+    background-color: orange;
+    border-radius: 7.5px;
+    border: none;
+    clip-path: polygon(99% 26%, 93% 18%, 86% 10%, 80% 6%, 75% 4%, 69% 1%, 59% 0%, 49% 0%, 37% 0%, 30% 4%, 23% 8%, 15% 14%, 10% 20%, 6% 28%, 2% 37%, 1% 48%, 2% 63%, 8% 76%, 15% 85%, 25% 94%, 39% 100%, 49% 100%, 63% 100%, 68% 100%, 68% 100%, 85% 90%, 95% 79%, 98% 73%, 83% 65%, 67% 57%, 56% 52%, 53% 49%);
+}
+
+
+.blinky {
+    background-color: red;
+    border: none;
+    clip-path: polygon(60% 16%, 40% 16%, 40% 21%, 31% 21%, 31% 26%, 26% 26%, 26% 31%, 21% 31%, 21% 45%, 16% 46%, 16% 83%, 21% 83%, 21% 79%, 26% 79%, 26% 74%, 30% 74%, 31% 79%, 35% 79%, 35% 84%, 45% 83%, 45% 74%, 54% 74%, 55% 83%, 64% 83%, 64% 79%, 69% 79%, 69% 74%, 74% 74%, 74% 78%, 78% 79%, 79% 83%, 83% 84%, 84% 45%, 79% 45%, 79% 31%, 74% 30%, 74% 26%, 69% 26%, 69% 21%);
+}
+
+.pinky {
+    background-color: pink;
+    border: none;
+    clip-path: polygon(60% 16%, 40% 16%, 40% 21%, 31% 21%, 31% 26%, 26% 26%, 26% 31%, 21% 31%, 21% 45%, 16% 46%, 16% 83%, 21% 83%, 21% 79%, 26% 79%, 26% 74%, 30% 74%, 31% 79%, 35% 79%, 35% 84%, 45% 83%, 45% 74%, 54% 74%, 55% 83%, 64% 83%, 64% 79%, 69% 79%, 69% 74%, 74% 74%, 74% 78%, 78% 79%, 79% 83%, 83% 84%, 84% 45%, 79% 45%, 79% 31%, 74% 30%, 74% 26%, 69% 26%, 69% 21%);
+}
+
+.inky {
+    background-color: aqua;
+    border: none;
+    clip-path: polygon(60% 16%, 40% 16%, 40% 21%, 31% 21%, 31% 26%, 26% 26%, 26% 31%, 21% 31%, 21% 45%, 16% 46%, 16% 83%, 21% 83%, 21% 79%, 26% 79%, 26% 74%, 30% 74%, 31% 79%, 35% 79%, 35% 84%, 45% 83%, 45% 74%, 54% 74%, 55% 83%, 64% 83%, 64% 79%, 69% 79%, 69% 74%, 74% 74%, 74% 78%, 78% 79%, 79% 83%, 83% 84%, 84% 45%, 79% 45%, 79% 31%, 74% 30%, 74% 26%, 69% 26%, 69% 21%);
+}
+
+.clyde {
+    background-color: orange;
+    border: none;
+    clip-path: polygon(60% 16%, 40% 16%, 40% 21%, 31% 21%, 31% 26%, 26% 26%, 26% 31%, 21% 31%, 21% 45%, 16% 46%, 16% 83%, 21% 83%, 21% 79%, 26% 79%, 26% 74%, 30% 74%, 31% 79%, 35% 79%, 35% 84%, 45% 83%, 45% 74%, 54% 74%, 55% 83%, 64% 83%, 64% 79%, 69% 79%, 69% 74%, 74% 74%, 74% 78%, 78% 79%, 79% 83%, 83% 84%, 84% 45%, 79% 45%, 79% 31%, 74% 30%, 74% 26%, 69% 26%, 69% 21%);
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    border: none;
+}
+button{
+    position: absolute;
+    top: 250px;
+    font-size: 40px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid red;
+    background-color: red;
+    border-radius:5px; 
+    display: none;
+}
